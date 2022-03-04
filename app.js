@@ -14,6 +14,7 @@ const allPlayers = () => {
                 showPlayerDetails(data.player)
                 document.getElementById("spiner").style.display = "none"
             }
+            console.log(data)
         })
 }
 const showPlayerDetails = (players) => {
@@ -67,3 +68,8 @@ const setDeatils = (info) => {
     </div>
     `
 }
+
+
+meals.forEach(meal => {
+
+});
